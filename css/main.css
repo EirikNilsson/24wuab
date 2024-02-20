@@ -1,0 +1,194 @@
+body,ul{
+    margin: 0;
+
+}
+
+p {
+    font-size: 1.25rem;
+    color: green;
+
+
+}
+
+
+
+#mainFrame {
+    grid-area: st;
+    background-color: brown;
+    height: 200px;
+    margin: 75px;
+    padding-right: 400px;
+    width: auto;
+
+}
+
+
+#section1 {
+    grid-area: st1;
+    background-color: purple;
+    margin: 30px;
+    height: 200px;
+    width: auto;
+ 
+
+
+
+}
+#section2 {
+    grid-area: st2;
+    background-color: black;
+    height: 200px;
+    margin: 30px;
+    width: auto;
+
+    
+}
+#section3 {
+    grid-area: st3;
+    background-color: turquoise;
+    height: 200px;
+    margin: 30px;
+    width: auto;
+
+    
+}
+#section4 {
+    grid-area: st4;
+    background-color: gray;
+    height: 200px;
+    margin: 30px;
+    width: auto;
+
+    
+}
+
+#section5 {
+    grid-area: st5;
+    background-color: red;
+    height: 200px;
+    margin: 30px;
+    width: auto;
+
+    
+}
+
+#section6 {
+    grid-area: st6;
+    background-color: blue;
+    width: auto;
+    margin: 30px;
+
+
+    
+    
+}
+
+footer {
+    text-align: right;
+    padding-right: 20px;
+}
+
+@media (max-width: 800px) {
+
+#wrapper {
+    display: grid;
+    grid-template-areas: 
+    'st st'
+    'st1 st2'
+    'st3 st4'
+    'st5 st6';
+
+
+}
+
+.menu{
+    grid-area: nv;
+    height: 100vh;
+    width: 20vw;
+    background: hotpink;
+    position: fixed;
+    top: 0;
+    left: -90vw;
+    transition: left 0.3s;
+    box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
+    z-index: 10;
+
+}
+
+.menu-button{
+    cursor: pointer;
+    display: inline;
+}
+
+.menu-button i.material-icons{
+    font-size: 2.5rem;
+}
+
+.show{
+    left: 0;
+}
+
+.fade-layer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    z-index: 5;
+}
+
+.fade-layer.visible{
+    display: block;
+}
+
+}
+
+
+@media (min-width: 800px) {
+    body {
+        background-color: red;
+    }
+    #wrapper {
+        display: grid;
+        grid-template-areas: 
+        'nv nv nv'
+        'st st st'
+        'st1 st2 st3'
+        'st4 st5 st6';
+        margin-right: 200px;
+    
+    }
+
+
+    .menu-button i.material-icons{
+        display: none;
+    }
+
+
+    p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        color: red
+    
+        
+
+    }
+    #section5 {
+        grid-area: st5;
+        background-color: green;
+ 
+        
+    }
+    #item1{
+        grid-area: nv;
+    }
+   
+    
+  
+    
+
+
+
+}
