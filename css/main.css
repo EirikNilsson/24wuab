@@ -1,14 +1,51 @@
-body,ul{
+body {
     margin: 0;
+    background: rgb(2,12,5);
+    background: linear-gradient(0deg, rgba(2,12,5,1) 21%, rgba(12,75,26,1) 95%);
 
 }
 
 p {
     font-size: 1.25rem;
-    color: green;
+}
 
+a {
+    font-size: 1.25rem;
+    color: red;
 
 }
+
+#item1 {
+    margin: 30px;
+}
+#item2 {
+    margin: 30px;
+}
+#item3 {
+    margin: 30px;
+}
+#item4 {
+    margin: 30px;
+}
+#item5 {
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+header {
+    margin-left: 160px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
 
 
 
@@ -21,6 +58,17 @@ p {
     width: auto;
 
 }
+
+#Nocco1 {
+    width: 20px;
+    height: 200px;
+
+
+
+
+}
+
+
 
 
 #section1 {
@@ -90,58 +138,60 @@ footer {
 
 @media (max-width: 800px) {
 
-#wrapper {
-    display: grid;
-    grid-template-areas: 
-    'st st'
-    'st1 st2'
-    'st3 st4'
-    'st5 st6';
+    #wrapper {
+        display: grid;
+        grid-template-areas: 
+        'hd hd'
+        'st st'
+        'st1 st2'
+        'st3 st4'
+        'st5 st6';
 
 
-}
+    }
 
-.menu{
-    grid-area: nv;
-    height: 100vh;
-    width: 20vw;
-    background: hotpink;
-    position: fixed;
-    top: 0;
-    left: -90vw;
-    transition: left 0.3s;
-    box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
-    z-index: 10;
 
-}
 
-.menu-button{
-    cursor: pointer;
-    display: inline;
-}
+    .menu{
+        height: 100vh;
+        width: 20vw;
+        background: black;
+        position: fixed;
+        top: 0;
+        left: -90vw;
+        transition: left 0.3s;
+        box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
+        z-index: 10;
 
-.menu-button i.material-icons{
-    font-size: 2.5rem;
-}
+    }
 
-.show{
-    left: 0;
-}
+    .menu-button{
+        cursor: pointer;
+        display: inline;
+    }
 
-.fade-layer{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5);
-    display: none;
-    z-index: 5;
-}
+    .menu-button i.material-icons{
+        font-size: 2.5rem;
+    }
 
-.fade-layer.visible{
-    display: block;
-}
+    .show{
+        left: 0;
+    }
+
+    .fade-layer{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5);
+        display: none;
+        z-index: 5;
+    }
+
+    .fade-layer.visible{
+        display: block;
+    }
 
 }
 
@@ -153,36 +203,80 @@ footer {
     #wrapper {
         display: grid;
         grid-template-areas: 
-        'nv nv nv'
+        'hd hd hd'
         'st st st'
         'st1 st2 st3'
         'st4 st5 st6';
-        margin-right: 200px;
+        margin-right: 60px;
     
     }
 
 
     .menu-button i.material-icons{
         display: none;
+
+       
+    }
+    .menu {
+        background-color: black;
+        z-index: 20;
+        width: 150px;
     }
 
 
     p {
         font-size: 1.5rem;
         line-height: 1.5;
-        color: red
+        color: blue
     
         
 
     }
+
+    #mainFrame {
+        grid-area: st;
+        height: 400px;
+
+    }
+
+    #section1 {
+        grid-area: st1;
+        width: 250px;
+    }
+
+    #section2 {
+        grid-area: st2;
+        width: 250px;
+    }
+
+    #section3 {
+        grid-area: st3;
+        width: 250px;
+    
+        
+
+    }
+
+    #section4 {
+        grid-area: st4;
+        width: 250px;
+    }
     #section5 {
         grid-area: st5;
         background-color: green;
+        width: 250px;
  
         
     }
-    #item1{
-        grid-area: nv;
+    #section6 {
+        grid-area: st6;
+        width: 250px;
+        
+    }
+
+    footer {
+        text-align: right;
+        padding-right: 150px;
     }
    
     
