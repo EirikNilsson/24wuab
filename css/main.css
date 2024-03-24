@@ -7,11 +7,12 @@ body {
 
 p {
     font-size: 2rem;
+    color: white;
 }
 
 a {
 
-    color: red;
+    color: white;
 
 }
 
@@ -31,6 +32,12 @@ a {
     margin: 20px;
 }
 
+#Creator {
+    width: 200px;
+    margin-left: 15px;
+    margin-top:20px;
+}
+
 
 
 
@@ -39,10 +46,10 @@ a {
 
 
 header {
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    color: white;
 }
 
 
@@ -56,6 +63,8 @@ header {
     margin: 75px;
     padding-right: 400px;
     width: auto;
+    color: white;
+
     
 }
 
@@ -67,6 +76,7 @@ header {
     top: 50%; 
     transform: translateY(-50%); 
     background-size: cover;
+    color: white;
 }
 
 .promo-text {
@@ -75,7 +85,7 @@ header {
     top: 50%; 
     transform: translateY(-50%); 
     font-size: 1.7rem; 
-    color: black; 
+    color: white;
     width: 200px; 
     text-align: center; 
     font-weight: bold;
@@ -87,7 +97,7 @@ header {
     margin-bottom: -10px;
     transform: translateY(-50%); 
     font-size: 1rem; 
-    color: red; 
+    color: white;
     width: 200px; 
     text-align: center; 
     font-weight: bold;
@@ -186,6 +196,11 @@ footer {
 
 
 }
+#About_us_heading {
+    text-align: center;
+    color: white;
+}
+
 
 #About_us_section {
     background-color: green;
@@ -198,6 +213,7 @@ footer {
 .Text {
     margin: 20px;
     font-size: 25px; 
+    color: white;
 
 }
 
@@ -272,7 +288,7 @@ h1 {
 
 }
 
-#list {
+.list {
     margin-bottom:30px;
 }
 
@@ -280,7 +296,7 @@ h1 {
     position: absolute;
     left: 30px;
     font-size: 30px;
-    color: red;
+    color: white;
     margin: 20px;
     
 }
@@ -291,7 +307,7 @@ h1 {
     font-size: 30px;
     text-align: center;
     margin: 10px;
-    color: red;
+    color: white;
     
 }
 
@@ -390,6 +406,7 @@ h1 {
 
     p {
         font-size: 2rem;
+        color: white;
 
    
     
@@ -409,6 +426,7 @@ h1 {
         right: 200px; 
         top: 50%; 
         transform: translateY(-50%); 
+        color: white;
     }
     
     .promo-text {
@@ -417,7 +435,7 @@ h1 {
         top: 50%; 
         transform: translateY(-50%); 
         font-size: 2.2rem; 
-        color: black; 
+        color: white;
         width: 200px; 
         text-align: center; 
         font-weight: bold;
@@ -464,18 +482,21 @@ h1 {
 
     #heading {
         margin-right: 200px;
+        color: white;
     }
 
     #Cheapest_country {
         position: absolute;
         top: 750px;
         left: 800px;
+        color: white;
     }
     
     #Cheapest_nearest {
         position: absolute;
         top: 700px;
         left: -100px;
+        color: white;
 
 
     
@@ -488,17 +509,19 @@ h1 {
     
     #country {
         font-size: 40px;
+        color: white;
         
     
     
     }
     #nearest {
         font-size: 40px;
+        color: white;
         
     
     }
     
-    #list {
+    .list {
         margin-bottom:10px;
     }
     
@@ -506,7 +529,7 @@ h1 {
         position: absolute;
         left: 30px;
         font-size: 30px;
-        color: red;
+        color: white;
         margin: 20px;
         
     }
@@ -517,8 +540,13 @@ h1 {
         font-size: 30px;
         text-align: center;
         margin: 10px;
-        color: red;
+        color: white;
         
+    }
+
+    #Creator {
+        width: 200px;
+        margin-left: 1050px;
     }
 
 
