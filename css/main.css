@@ -17,25 +17,25 @@ a {
 }
 
 #item1 {
-    margin: 30px;
+    margin: 10%;
 }
 #item2 {
-    margin: 30px;
+    margin: 10%;
 }
 #item3 {
-    margin: 30px;
+    margin: 10%;
 }
 #item4 {
-    margin: 30px;
+    margin: 10%;
 }
 #item5 {
-    margin: 20px;
+    margin: 10%;
 }
 
 #Creator {
-    width: 200px;
-    margin-left: 15px;
-    margin-top:20px;
+    width: 30%;
+    margin-left: 33%;
+    margin-top:2%;
 }
 
 
@@ -60,8 +60,7 @@ header {
     grid-area: st;
     background-color: green;
     height: 200px;
-    margin: 75px;
-    padding-right: 400px;
+    margin: 10%;
     width: auto;
     color: white;
 
@@ -69,10 +68,10 @@ header {
 }
 
 #Nocco1 {
-    width: 125px;
-    height: 175px;
+    width: 20%;
+    height: 80%;
     position: absolute;
-    right: 20px; 
+    right: 5%; 
     top: 50%; 
     transform: translateY(-50%); 
     background-size: cover;
@@ -82,23 +81,22 @@ header {
 .promo-text {
     position: absolute;
     left: 20px; 
-    top: 50%; 
+    top: 40%; 
     transform: translateY(-50%); 
     font-size: 1.7rem; 
     color: white;
-    width: 200px; 
+    width: 33%; 
     text-align: center; 
     font-weight: bold;
 }
 
 
 .section_text { 
-    margin-top: 42px;
     margin-bottom: -10px;
     transform: translateY(-50%); 
     font-size: 1rem; 
     color: white;
-    width: 200px; 
+    width: 80%; 
     text-align: center; 
     font-weight: bold;
 
@@ -108,8 +106,8 @@ header {
 
 #section1 {
     grid-area: st1;
-    margin: 60px;
-    height: 200px;
+    margin: 20%;
+    height: 30%;
     width: auto;
 
 }
@@ -123,7 +121,7 @@ header {
 #section2 {
     grid-area: st2;
     height: 200px;
-    margin: 60px;
+    margin: 20%;
     width: auto;
 }
 
@@ -137,7 +135,7 @@ header {
 #section3 {
     grid-area: st3;
     height: 200px;
-    margin: 60px;
+    margin: 20%;
     width: auto; 
 }
 
@@ -149,7 +147,7 @@ header {
 #section4 {
     grid-area: st4;
     height: 200px;
-    margin: 60px;
+    margin: 20%;
     width: auto; 
 }
 
@@ -161,7 +159,7 @@ header {
 #section5 {
     grid-area: st5;
     height: 200px;
-    margin: 60px;
+    margin: 20%;
     width: auto;
 
     
@@ -175,7 +173,7 @@ header {
 #section6 {
     grid-area: st6;
     width: auto;
-    margin: 60px; 
+    margin: 20%;
 }
 #New_celcius {
     width: 50px;
@@ -183,10 +181,6 @@ header {
 
 }
 
-footer {
-    text-align: right;
-    padding-right: 20px;
-}
 
 #wrapper2 {
     display: grid;
@@ -420,10 +414,9 @@ h1 {
 
     }
     #Nocco1 {
-        width: 250px;
-        height: 350px;
+        width: 33%;
+        height: 66%;
         position: absolute;
-        right: 200px; 
         top: 50%; 
         transform: translateY(-50%); 
         color: white;
@@ -475,10 +468,7 @@ h1 {
         
     }
 
-    footer {
-        text-align: right;
-        padding-right: 150px;
-    }
+
 
     #heading {
         margin-right: 200px;
@@ -545,8 +535,8 @@ h1 {
     }
 
     #Creator {
-        width: 200px;
-        margin-left: 1050px;
+        width: 30%;
+        margin-left: 10%;
     }
 
 
