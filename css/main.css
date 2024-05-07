@@ -46,7 +46,6 @@ a {
 
 
 header {
-    font-size: 30px;
     font-weight: bold;
     text-align: center;
     color: white;
@@ -83,7 +82,7 @@ header {
     left: 20px; 
     top: 40%; 
     transform: translateY(-50%); 
-    font-size: 1.7rem; 
+    font-size: 1.2rem; 
     color: white;
     width: 33%; 
     text-align: center; 
@@ -214,16 +213,15 @@ header {
 /* Nocco page */
 
 #mainPicSection {
-    position: relative; 
+    
     grid-area: st;
-    height: 300px;
 
 
 }
 
 #mainPic {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 20%;
+    margin-right: 33%;
     margin-top: 20px;
     background-size: cover;
     height: 300px;
@@ -232,8 +230,8 @@ header {
 
 #section1_0 {
     grid-area: st1;
-    margin: 60px;
-    margin-left: 120px;
+    margin: 10%;
+    margin-left: 33%;
     height: 200px;
     width: auto;
 }
@@ -241,21 +239,22 @@ header {
 #section2_0 {
     grid-area: st2;
     height: 200px;
-    margin: 60px;
-    margin-left: 0px;
+    margin: 10%;
+    margin-left: 33%;
+    
     width: auto;
 }
 
 #Cheapest_country {
     position: absolute;
     top: 750px;
-    left: 80px;
+    left: 20%;
 }
 
 #Cheapest_nearest {
     position: absolute;
     top: 750px;
-    left: 80px;
+    left: 20%;
 
 }
 
@@ -291,7 +290,7 @@ h1 {
     left: 30px;
     font-size: 30px;
     color: white;
-    margin: 20px;
+    margin: 20%;
     
 }
 #list2 {
@@ -300,7 +299,7 @@ h1 {
     top: 200px;
     font-size: 30px;
     text-align: center;
-    margin: 10px;
+    margin: 20%;
     color: white;
     
 }
@@ -318,6 +317,8 @@ h1 {
 
 
     }
+
+
 
 
 
